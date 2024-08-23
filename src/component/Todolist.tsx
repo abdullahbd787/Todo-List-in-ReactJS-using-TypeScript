@@ -45,9 +45,7 @@ const Todolist = () => {
         )
       })}
       {listData.length >= 1 && <button className="bg-red-500 text-white font-medium p-1 mt-2 flex w-full items-center justify-center" onClick={removeAll}>Remove All</button>}
-
     </div>
   )
 }
-
 export default Todolist
